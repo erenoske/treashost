@@ -1,0 +1,29 @@
+.stars {
+    width: 2px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3; 
+    animation: twinkle 5s infinite ease-in-out alternate, move 20s infinite linear; 
+    box-shadow: 0 0 50px rgba(255, 255, 255); 
+  }
+
+  
+  /* Yıldızları rastgele konumlandırma */
+  .stars:nth-child(1) { top: 10%; left: 5%; }
+  .stars:nth-child(2) { top: 20%; left: 30%; }
+  .stars:nth-child(3) { top: 15%; left: 80%; }
+  .stars:nth-child(4) { top: 25%; left: 60%; }
+  .stars:nth-child(5) { top: 40%; left: 50%; }
+  .stars:nth-child(6) { top: 30%; left: 70%; }
+  .stars:nth-child(7) { top: 55%; left: 15%; }
+  .stars:nth-child(8) { top: 65%; left: 40%; }
+  .stars:nth-child(9) { top: 75%; left: 90%; }
+  .stars:nth-child(10) { top: 85%; left: 20%; }
+  .stars:nth-child(11) { top: 70%; left: 75%; }
+  .stars:nth-child(12) { top: 60%; left: 25%; }
+  .stars:nth-child(13) { top: 90%; left: 55%; }
+  .stars:nth-child(14) { top: 80%; left: 10%; }
+  .stars:nth-child(15) { top: 50%; left: 90%; }
+  

@@ -23,8 +23,25 @@
     <link rel="stylesheet" href="./public/css/normallize.css">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/stars.css">
 </head>
 <body>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="overlay"></div>
     <div class="container">
         <div class="flex-cont">
             <div class="flex-items">
@@ -34,17 +51,181 @@
                    </a>
             </div>
             <div class="flex-items">
-                <div class="navbar-links">
-                    <a href=""><h3>Ana Sayfa</h3></a>
-                    <a href=""><h3>Sunucular <i class='bx bx-chevron-down' ></i></h3></a>
-                    <a href=""><h3>İletişim</h3></a>
+                <div class="navbar-links dropdown">
+                  <a href="#"><h4>Anasayfa</h4></a>
+                  
+                  <!-- dropdown -->
+                  <h4 class="pointer flex-cont" id="f-link">Sunucular <i class='bx bx-chevron-down'></i></h3>
+                  <div class="dropdown-menu-first glass b-r">
+                    <div class="dropdown-links">
+                        <a href="#">
+                            <div class="dropdown-items b-r">
+                                <i class='bx bx-server dropdown-icons'></i>
+                                <div>
+                                    <h4>Sanal Sunucular (VDS)</h4>
+                                    <p class="description f-small">Projelerinizi hızla hayata geçirin. Güvenli ve esnek çözümler sunuyoruz.</p>
+                                </div>
+
+                             </div>
+                        </a>
+                        <a href="#">
+                            <div class="dropdown-items b-r">
+                                <i class='bx bx-server dropdown-icons'></i>
+                                <div>
+                                    <h4>Oyun Sunucuları</h4>
+                                    <p class="description f-small">Kesintisiz, Hızlı ve güvenilir altyapı ile rakiplerinizin önünde olun.</p>
+                                </div>
+
+                             </div>
+                        </a>
+                        <a href="#">
+                            <div class="dropdown-items b-r">
+                                <i class='bx bx-globe dropdown-icons'></i>
+                                <div>
+                                    <h4>Web Sunucuları</h4>
+                                    <p class="description f-small">Hızlı ve güvenilir erişim sağlayın.</p>
+                                </div>
+
+                             </div>
+                        </a>
+                    </div>
+                  </div>
+                  <a href="#"><h4>İletişim</h4></a>
                 </div>
-            </div>
+              </div>
             <div class="flex-items" style="width: 200px;">
                 <a href="https://panel.treas.host/">
-                    <button class="main-button"><p>Müşteri Paneli</p></button>
+                    <button class="main-button b-r"><p>Müşteri Paneli</p></button>
                 </a>
-                <i class='bx bx-menu'></i>
+                <i class='bx bx-menu pointer'></i>
+            </div>
+        </div>
+        <div class="hero">
+            <h2 class="hero-header">Herkes için, ekonomik ve performanslı sunucular</h2>
+            <p class="description hero-p">Projelerinizin ihtiyacı olan performans, sadece birkaç tık uzağınızda! Kötü performans gösteren sunuculara veda etmenin tam zamanı!</p>
+        </div>
+        <div>
+            <h2>Size uygun olan sunuculardan birini seçin</h2>
+            <div class="price-cont">
+                <div class="price-box glass b-r flex-col">
+                    <h3>Sanal Sunucular</h3>
+                    <p class="description">Kesintisiz, Hızlı ve güvenilir altyapı ile rakiplerinizin önünde olun.</p>
+                    <h3>Öne Çıkan Özellikler</h3>
+                    <div class="features">
+                        <p><i class='bx bx-check'></i> İşlevli Yönetim Panel</p>
+                        <p><i class='bx bx-check'></i> Ücretsiz Sunucu Taşıma</p>
+                        <p><i class='bx bx-check'></i> 7/24 Aktif Destek</p>
+                        <p><i class='bx bx-check'></i> %99.9 Uptime Garantisi</p>
+                        <p><i class='bx bx-check'></i> Güçlü DDos Koruması</p>
+                        <p><i class='bx bx-check'></i> Ücretsiz Alt Alan Adı ( xxx.treas.host )</p>
+                    </div>
+                    <a href="https://panel.treas.host/">
+                        <button class="second-button header-gredient b-r"><p>Planları Görüntüle</p></button>
+                    </a>
+                </div>
+                <div class="price-box glass b-r flex-col">
+                    <h3>Oyun Sunucuları</h3>
+                    <p class="description">Kesintisiz, Hızlı ve güvenilir altyapı ile rakiplerinizin önünde olun.</p>
+                    <h3>Öne Çıkan Özellikler</h3>
+                    <div class="features">
+                        <p><i class='bx bx-check'></i> İşlevli Yönetim Panel</p>
+                        <p><i class='bx bx-check'></i> Ücretsiz Sunucu Taşıma</p>
+                        <p><i class='bx bx-check'></i> 7/24 Aktif Destek</p>
+                        <p><i class='bx bx-check'></i> %99.9 Uptime Garantisi</p>
+                        <p><i class='bx bx-check'></i> Güçlü DDos Koruması</p>
+                        <p><i class='bx bx-check'></i> Ücretsiz Alt Alan Adı ( xxx.treas.host )</p>
+                    </div>
+                    <a href="https://panel.treas.host/">
+                        <button class="second-button header-gredient b-r"><p>Planları Görüntüle</p></button>
+                    </a>
+                </div>
+                <div class="price-box glass b-r flex-col">
+                    <h3>Web Sunucuları</h3>
+                    <p class="description">Kesintisiz, Hızlı ve güvenilir altyapı ile rakiplerinizin önünde olun.</p>
+                    <h3>Öne Çıkan Özellikler</h3>
+                    <div class="features">
+                        <p><i class='bx bx-check'></i> İşlevli Yönetim Panel</p>
+                        <p><i class='bx bx-check'></i> Ücretsiz Sunucu Taşıma</p>
+                        <p><i class='bx bx-check'></i> 7/24 Aktif Destek</p>
+                        <p><i class='bx bx-check'></i> %99.9 Uptime Garantisi</p>
+                        <p><i class='bx bx-check'></i> Güçlü DDos Koruması</p>
+                        <p><i class='bx bx-check'></i> Ücretsiz Alt Alan Adı ( xxx.treas.host )</p>
+                    </div>
+                    <a href="https://panel.treas.host/">
+                        <button class="second-button header-gredient b-r"><p>Planları Görüntüle</p></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Müşterilerimize Sunduğumuz Olanaklar</h2>
+            <div class="price-cont">
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3>Otomatik Kurulum</h3>
+                    <p class="description">Sunucularınız, seçtiğiniz işletim sistemiyle otomatik olarak 5-15 dakika içinde kullanıma hazır hale getirilir.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3>Yüksek Uptime</h3>
+                    <p class="description">Sunucularımız %99.9 Uptime oranıyla İstanbul Datacasa veri merkezinde barındırılmakta, hızlı ve düşük pingli bağlantılar sunulmaktadır.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3>Paylaşımsız Kaynaklar</h3>
+                    <p class="description">Satın aldığınız sunucuların tüm kaynakları yalnızca size aittir. Tüm paketlerimiz VDS olarak sunulmakta olup, VPS satışı yapılmamaktadır.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3>Koruma</h3>
+                    <p class="description">DDoS-Guard hizmetimiz ve MikroTik cihazlarımız sayesinde zararlı trafiği engelliyor, güvenli bir bağlantı sunuyoruz.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Birkaç Adımda Sunucu Sahibi Olun</h2>
+            <div class="price-cont">
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3><strong class="header-gredient">1.</strong> Sunucu Paketi Seçin</h3>
+                    <p class="description">Projeniz için doğru paketi seçmek önemlidir. Çok ölçekli paketlerimizle her düzeyde ihtiyaca yardımcı oluyoruz.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3><strong class="header-gredient">2.</strong> Sunucunuzu Yapılandır</h3>
+                    <p class="description">İşletim sisteminizi, ek korumalarınızı ve yedek sisteminizi seçin.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3><strong class="header-gredient">3.</strong> Giriş Yapın/Kayıt Olun</h3>
+                    <p class="description">Hesabınıza erişim sağlamak veya yeni bir hesap oluşturmak için lütfen giriş yapın veya kayıt olun.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s why-box">
+                    <h3><strong class="header-gredient">4.</strong> Ödemeyi Yapın</h3>
+                    <p class="description">Ödeme sürecinizi kolay ve sorunsuz hale getirmek için çeşitli güvenli ödeme yöntemleri sunuyoruz.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Sıkça Sorulan Sorular</h2>
+            <div class="price-cont">
+                <div class="price-box glass b-r flex-col gap-s ffq-box">
+                    <h3>Siparişim ne zaman teslim edilir?</h3>
+                    <p class="description">Bütün siparişler otomasyonumuz tarafından otomatik olarak teslim edilir. Ortalama 5 ila 15 dakika içerisinde sunucunuz kurulur ve teslim edilir.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s ffq-box">
+                    <h3>Sunucum için domain almak zorunda mıyım?</h3>
+                    <p class="description">Hayır. dilerseniz sayısal IPv4 adresiniz ile, dilerseniz de bizden bir alt alan adı talep ederek (xxx.treas.host) sunucunuza bağlanabilirsiniz.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s ffq-box">
+                    <h3>Başka bir barındırıcıdayım, dosyalarımı buraya nasıl taşıyacağım?</h3>
+                    <p class="description">Sunucunuzu dilerseniz ücretsiz olarak bize taşıtabilirsiniz. Kendiniz taşımak isterseniz de 1Gbit/s aktif port ile hızlı bir şekilde dosya indir-yükle yapabilirsiniz.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s ffq-box">
+                    <h3>Çok fazla saldırı alıyorum, ek DDoS korumanız mevcut mu?</h3>
+                    <p class="description">Dilerseniz sunucu yapılandırma aşamasında ayda 240₺ fark ödeyerek Comnet Secure Uplink Anti DDoS korumamızı deneyebilirsiniz.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s ffq-box">
+                    <h3>Trafik sınırı ve hat sınırı var mı?</h3>
+                    <p class="description">Abartılmadığı sürece trafik sınırımız bulunmamakta. Sürekli up/down yapılmadıkça hat sınırımız da bulunmuyor.</p>
+                </div>
+                <div class="price-box glass b-r flex-col gap-s ffq-box">
+                    <h3>Hangi işletim sistemlerini kullanabilirim?</h3>
+                    <p class="description">Otomasyonumuzdan Centos 7, Centos 8, Debian 8 Server, Debian 10 Server, Debian 11 Server, Ubuntu 18.04 Server, Ubuntu 20.04 Server, Ubuntu 22.04 Server, Windows Server 2016, Windows Server 2019, Windows Server 2022, Windows 10 ve Windows 11 işletim sistemlerini hızlı kurulum ile teslim alabilirsiniz. Farklı bir işletim sistemi ihtiyacınız varsa bize ulaşabilirsiniz.</p>
+                </div>
             </div>
         </div>
     </div>
